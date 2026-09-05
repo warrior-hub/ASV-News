@@ -27,7 +27,7 @@ const apiLimiter = rateLimit({
 app.use("/api/", apiLimiter);
 app.use(
   cors({
-     origin: "https://asv-news-frontend.onrender.com/",
+     origin: "https://asv-news-frontend.onrender.com",
     credentials: true,
   })
 );
