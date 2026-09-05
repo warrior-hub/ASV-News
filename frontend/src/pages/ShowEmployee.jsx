@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useNavigate, useParams } from "react-router-dom";
 
-const API_URL = "http://localhost:5000/api/employees";
+const API_URL = "https://asv-news.onrender.com/api/employees";
 
 const ShowEmployee = () => {
   const { id } = useParams();

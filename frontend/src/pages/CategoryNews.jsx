@@ -11,7 +11,7 @@ import {
   FiRefreshCw,
 } from "react-icons/fi";
 
-const API_URL = "http://localhost:5000/api/news";
+const API_URL = "https://asv-news.onrender.com/api/news";
 
 /* =========================================================
    CATEGORY CONFIG

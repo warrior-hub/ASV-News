@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FiEye, FiEyeOff, FiLock, FiMail, FiLogIn } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "https://asv-news.onrender.com/api/auth";
 
 const AdminLogin = () => {
   const navigate = useNavigate();

@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import AdminHeader from "./AdminHeader";
 
-const API_URL = "http://localhost:5000/api/employees";
+const API_URL = "https://asv-news.onrender.com/api/employees";
 
 const initialFormData = {
   employeeId: "",

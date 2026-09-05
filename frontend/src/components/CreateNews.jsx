@@ -380,7 +380,7 @@ const CreateNews = () => {
 
       const { data } =
         await axios.post(
-          "http://localhost:5000/api/news",
+          "https://asv-news.onrender.com/api/news",
           uploadData
         );
 

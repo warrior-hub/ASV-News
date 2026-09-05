@@ -6,7 +6,7 @@ import AdminHeader from "./AdminHeader";
 
 const API_URL =
   import.meta.env.VITE_API_URL ||
-  "http://localhost:5000/api/employees";
+  "https://asv-news.onrender.com/api/employees";
 
 const initialFormData = {
   employeeId: "",

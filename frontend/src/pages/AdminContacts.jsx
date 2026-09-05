@@ -16,7 +16,7 @@ import {
   FiAlertTriangle,
 } from "react-icons/fi";
 
-const API_URL = "http://localhost:5000/api/contact";
+const API_URL = "https://asv-news.onrender.com/api/contact";
 
 const AdminContacts = () => {
   const [contacts, setContacts] = useState([]);

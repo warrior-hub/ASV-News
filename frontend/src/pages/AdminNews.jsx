@@ -30,7 +30,7 @@ import AdminHeader from "./AdminHeader";
 
 const API_URL =
   import.meta.env.VITE_API_URL ||
-  "http://localhost:5000/api";
+  "https://asv-news.onrender.com/api";
 
 // =====================================================
 // CATEGORY
